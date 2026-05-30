@@ -215,12 +215,3 @@ engine = RAGEngine(
 ### Out of memory
 - Reduce batch sizes in `EmbeddingManager.py`
 - Process smaller document chunks
-
-## Future Enhancements
-
-- [ ] Support for more document formats (DOCX, XLSX, etc.)
-- [ ] Query rewriting and decomposition
-- [ ] Caching for frequently asked questions
-- [ ] Web interface
-- [ ] Streaming responses
-- [ ] Multi-turn conversation support
