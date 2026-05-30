@@ -1,0 +1,7 @@
+Typically, the data to be referenced is converted into LLM embeddings, numerical representations in the form of a large vector space. RAG can be used on unstructured (usually text), semi-structured, or structured data (for example knowledge graphs). These embeddings are then stored in a vector database to allow for document retrieval.
+
+Given a user query, a document retriever is first called to select the most relevant documents that will be used to augment the query.[2][3] This comparison can be done using a variety of methods, which depend in part on the type of indexing used.[1]
+
+The model feeds this relevant retrieved information into the LLM via prompt engineering of the user's original query. Newer implementations (as of 2023) can also incorporate specific augmentation modules with abilities such as expanding queries into multiple domains and using memory and self-improvement to learn from previous retrievals.
+
+Finally, the LLM can generate output based on both the query and the retrieved documents.[2][3] Some models incorporate extra steps to improve output, such as the re-ranking of retrieved information, context selection, and fine-tuning.
